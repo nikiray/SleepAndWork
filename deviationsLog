@@ -4,4 +4,5 @@ Pre-registration: https://osf.io/g8t7y (4 November 2026). Registered code: relea
 
 | Date | Section of plan | What changed | Why | Affects analysis? |
 |---|---|---|---|---|
-| 04/11/2026 | Data collection | Downloaded Fox DEN data, monthly cut dated [date] | — | No (record only) |
+| 04/11/2026 | Data collection | Downloaded Fox DEN data, monthly cut dated [cut date] | Record of data access after registration | No (record only) |
+| 04/11/2026 | Code (R/00_functions.R, read_fox) | Allowed tables without days_elapsed; set to 0 | General.csv is a person-level table with no days_elapsed column; code stopped on loading | No – implementation |

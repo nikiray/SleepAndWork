@@ -6,3 +6,4 @@ Pre-registration: https://osf.io/g8t7y (4 November 2026). Registered code: relea
 |---|---|---|---|---|
 | 04/11/2026 | Data collection | Downloaded Fox DEN data, monthly cut dated [cut date] | Record of data access after registration | No (record only) |
 | 04/11/2026 | Code (R/00_functions.R, read_fox) | Allowed tables without days_elapsed; set to 0 | General.csv is a person-level table with no days_elapsed column; code stopped on loading | No – implementation |
+| 04/11/2026 | Code (config.R, cfg$files) | Set exact file names for meds, mind, cov, fatigue and fnclimp (MedicationsPD.csv, The_Role_of_Stress_in_Parkinsons_Disease.csv, COVID_19_Experience.csv, Understanding_Fatigue_in_Parkinsons_Patients.csv, Financial_and_Social_Impact_of_Parkinsons_Disease_2.csv) | Fox DEN file names differed from the registered search patterns; files were not matched | No – implementation (file names) |
